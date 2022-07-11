@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cursor-HW15/static/css/main.a01a961d.css",
+    "main.js": "/cursor-HW15/static/js/main.3d7d8305.js",
+    "index.html": "/cursor-HW15/index.html",
+    "main.a01a961d.css.map": "/cursor-HW15/static/css/main.a01a961d.css.map",
+    "main.3d7d8305.js.map": "/cursor-HW15/static/js/main.3d7d8305.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a01a961d.css",
+    "static/js/main.3d7d8305.js"
+  ]
+}

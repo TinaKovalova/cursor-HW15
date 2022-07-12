@@ -1,3 +1,4 @@
+import React from "react";
 import '../Styles/Post.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faMessage, faHeart, faRetweet, faShare, faB} from '@fortawesome/free-solid-svg-icons'
@@ -7,7 +8,7 @@ export default function Post({author, content, image, date}) {
     const {name, photo, nickname} = author;
     return (
         <div className='post d-flex'>
-            <img src={photo} className='photo' alt='photo'/>
+            <img src={photo} className='photo' alt='avatar'/>
             <div className='content d-flex'>
                 <div>
                     <h3>{name}</h3>
@@ -15,7 +16,7 @@ export default function Post({author, content, image, date}) {
                     <span>{nickname} - {date}</span>
                 </div>
                 <p>{content}</p>
-                <img src={image} className='content-image' alt='content-image'/>
+                <img src={image} className='content-image' alt='content'/>
                 <div className='d-flex post-menu'>
                     <div>
                         <FontAwesomeIcon icon={faMessage}/>
